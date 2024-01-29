@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/huiyuan/list",
+    "pages/huiyuan/add-or-update",
+    "pages/huiyuan/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/shangpinxinxi/list",
+    "pages/shangpinxinxi/add-or-update",
+    "pages/shangpinxinxi/detail",
+    "pages/shangpinfenlei/list",
+    "pages/shangpinfenlei/add-or-update",
+    "pages/shangpinfenlei/detail",
+    "pages/goumaidingdan/list",
+    "pages/goumaidingdan/add-or-update",
+    "pages/goumaidingdan/detail",
+    "pages/tuihuotuikuan/list",
+    "pages/tuihuotuikuan/add-or-update",
+    "pages/tuihuotuikuan/detail",
+    "pages/shangpinpingjia/list",
+    "pages/shangpinpingjia/add-or-update",
+    "pages/shangpinpingjia/detail",
+    "pages/shequtihuodian/list",
+    "pages/shequtihuodian/add-or-update",
+    "pages/shequtihuodian/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社区团购小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#19191E",
+    "borderStyle": "white",
+    "backgroundColor": "#A27500",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shangpinxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "商品信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
